@@ -16,7 +16,7 @@ The function should:
 */
 
 function createMenuItem(name, price, category){
-    return newItem = {name:name, price:price, category:category}
+    return {name:name, price:price, category:category}
 }
 
 
