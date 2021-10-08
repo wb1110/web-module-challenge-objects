@@ -52,15 +52,17 @@ const burger = {
   price: 18, 
   category: "Lunch",
   discount: function(customer){
-    customer = {
-    
+    if (customer === "teacher"){
+      return 13.5;
+    } else if (customer === "student"){
+      return 13.5;
+    } else if (customer === "public"){
+      return 16.2;
     }
-
+    }
   } 
-  }
 
   console.log(burger.discount("teacher")); 
-
 
 
 
